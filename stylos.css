@@ -107,6 +107,9 @@ body {
         font-size: 40px; 
     }
 }
+#uhuhu {
+    justify-content: center;
+}
 #cat {
     display: flex;
     justify-content: space-around;
