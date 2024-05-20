@@ -1,0 +1,112 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+*{
+    
+    margin: 0;
+    color: #7BE0AD;
+    color: #AEE5D8;
+    color: #E7E5E5;
+    color: #E5D0E3;
+    color: #E0B0D5;
+} 
+
+#menu {
+    background-color: #7BE0AD;
+
+}
+body {
+    background-color: #E7E5E5 !important;
+}
+#menu h1 {
+    margin: 0;
+}
+#listaM {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#listaM a {
+    text-decoration: none;
+    color: #E5D0E3;
+    font-size: 40px;
+}
+#curva {
+    position:absolute ;
+    z-index: 50;
+}
+#carr1{
+    margin-top: 5.8%;
+} 
+.text_carr{
+    background-color: #7BE0AD;
+    border-radius: 50px;
+}
+.text_carr h5 {
+    font-size: 30px;
+
+}
+.text_carr p {
+    font-size: 25px;
+    font-weight: 500;
+}
+#helado_centro{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/chocolatepal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+
+}
+.img_hel_cent{
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+#cont_hel_cent {
+    justify-content: space-around;
+}
+#cont_hel_cent ul li {
+    list-style: none;
+}
+.text-hel {
+    font-size: 30px;
+    color: #E5D0E3;
+    text-align: center;
+    background: #AEE5D8;
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#categorias {
+    text-align: center;
+}
+#categorias div h2 {
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#cat {
+    display: flex;
+    justify-content: space-around;
+}
+.minit {
+    font-size: 30px;
+}
+footer {
+    background-color: #E0B0D5;
+    height: 100px;
+}
