@@ -106,6 +106,9 @@ body {
     #categorias div h2 {
         font-size: 40px; 
     }
+    #listaM  {
+        text-align: end;
+    }
 }
 #uhuhu {
     justify-content: center;
