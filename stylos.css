@@ -41,7 +41,7 @@ body {
     color: #9A012E;
     font-size: 40px;
 }
-#curva {
+.curva {
     position:absolute ;
     z-index: 50;
 }
@@ -144,4 +144,20 @@ footer {
 
 .iconS {
     width: 50px;
+}
+#historia{
+    display: flex;
+    justify-content: center;
+}
+#historia > div {
+    background-color: #E0B0D5;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 15%;
+}
+#tienda-img {
+    border-radius: 30px;
+}
+#historia h2 {
+    text-align: center;
 }
