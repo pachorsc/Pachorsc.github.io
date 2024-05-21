@@ -34,6 +34,7 @@ body {
     list-style: none;
     justify-content: space-around;
     padding-top: 20px;
+    text-align: center;
 }
 #listaM a {
     text-decoration: none;
@@ -121,7 +122,26 @@ body {
 .minit {
     font-size: 30px;
 }
+#log {
+    border-radius: 200px;
+}
 footer {
     background-color: #E0B0D5;
-    height: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ultf {
+    display: flex;
+    justify-content: center;
+}
+
+.iconS {
+    width: 50px;
 }
