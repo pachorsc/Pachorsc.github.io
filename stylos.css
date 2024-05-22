@@ -3,6 +3,11 @@
     font-weight: 400;
     font-style: normal;
 }
+h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 img {
     max-width: 100%;
@@ -159,5 +164,63 @@ footer {
     border-radius: 30px;
 }
 #historia h2 {
+    text-align: center;
+}
+#fotos-ant {
+    background-color: #AEE5D8;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#fotos-ant h2 {
+    font-size: 5vh;
+    margin: 20px;
+}
+#img-ant{
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+@media (min-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+}
+#img-ant img {
+    border-radius: 40px;
+}
+#prim-pro {
+    width: 100%;
+    border-radius: 40px;
+}
+#texto-primprod {
+    font-size: 5vh;
+    text-align: center;
+}
+#boton-cont {
+    background-color: #AEE5D8;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#boton-cont h2 {
+    font-size: 5vh;
+    margin-bottom: 20px;
+}
+#boton-cont button {
+    margin-top: 20px;
+    
+}
+#ult-con {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
