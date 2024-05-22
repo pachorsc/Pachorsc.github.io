@@ -1,3 +1,4 @@
+
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -13,7 +14,6 @@ img {
     max-width: 100%;
 }
 *{
-    
     margin: 0;
     color: #7BE0AD;
     color: #AEE5D8;
@@ -29,6 +29,7 @@ img {
 }
 body {
     background-color: #E7E5E5 !important;
+    background-image: url(./img/fondo_PAntalla.avif);
 }
 #menu h1 {
     margin: 0;
@@ -66,9 +67,11 @@ body {
     font-weight: 500;
 }
 #helado_centro{
+    margin-top: 20px;
     width: 100%;
     height: 100%;
-    background-image: url(./img/chocolatepal.jpg);
+    background-image: url(./img/chocolatepal.jpg) ;
+    border-radius: 30px;
     background-repeat: no-repeat;
     background-position: center;
 
