@@ -224,3 +224,6 @@ footer {
     justify-content: center;
     text-align: center;
 }
+#ult-con img {
+    border-radius: 30px;
+}
