@@ -230,3 +230,16 @@ footer {
 #ult-con img {
     border-radius: 30px;
 }
+#Servicios {
+    display: flex;
+    align-items: center;
+    background-color: #AEE5D8;
+    padding: 20px;
+    padding-top: 15%;
+}
+#Servicios div>div>div img {
+    height: 200px;
+}
+.card {
+    height: 100% 
+}
