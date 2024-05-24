@@ -24,13 +24,36 @@ img {
 } 
 
 #menu {
-    background-color: #7BE0AD;
+    background-color: #7BE0AD !important;
 
 }
 body {
     background-color: #E7E5E5 !important;
     background-image: url(./img/fondo_PAntalla.avif);
 }
+#navbarSupportedContent a {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9A012E;
+    margin: 40px;
+    font-size: 50px;
+}
+
+.ms-auto {
+    margin-left: none !important;
+    margin-right:auto !important ;
+}
+@media (max-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+    .nav-item {
+        text-align: end;
+    
+    }
+}
+
 #menu h1 {
     margin: 0;
 }
@@ -115,9 +138,6 @@ body {
 @media (max-width: 575px) {
     #categorias div h2 {
         font-size: 40px; 
-    }
-    #listaM  {
-        text-align: end;
     }
 }
 #uhuhu {
@@ -222,12 +242,12 @@ footer {
     margin-top: 20px;
     
 }
-#ult-con {
+.ult-con {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-#ult-con img {
+.ult-con img {
     border-radius: 30px;
 }
 #Servicios {
@@ -247,4 +267,20 @@ footer {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+#imgaaa {
+    background: repeating-linear-gradient(45deg, #E7E5E5, transparent 100px);;
+}
+#carouselExampleRide {
+    border-radius: 50px;
+}
+#carouselExampleRide{
+    overflow: hidden;
+}
+#trnd {
+    text-align: center;
+}
+#trnd h2 {
+    font-size: 60px;
 }
