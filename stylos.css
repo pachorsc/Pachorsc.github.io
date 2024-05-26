@@ -85,18 +85,6 @@ body {
 #videopr video {
     border-radius: 30px;
 }
-.text_carr{
-    background-color: #7BE0AD;
-    border-radius: 50px;
-}
-.text_carr h5 {
-    font-size: 30px;
-
-}
-.text_carr p {
-    font-size: 25px;
-    font-weight: 500;
-}
 #helado_centro{
     margin-top: 20px;
     width: 100%;
@@ -141,11 +129,7 @@ body {
     margin-bottom: 40px;
     
 }
-@media (max-width: 575px) {
-    #categorias div h2 {
-        font-size: 40px; 
-    }
-}
+
 #uhuhu {
     justify-content: center;
 }
@@ -301,4 +285,12 @@ footer {
 }
 #trnd h2 {
     font-size: 80px;
+}
+@media (max-width: 575px) {
+    #categorias div h2 {
+        font-size: 40px; 
+    }
+    #cont_hel_cent h2 {
+        font-size: 50px;
+    }
 }
