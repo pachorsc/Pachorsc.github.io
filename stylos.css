@@ -9,6 +9,9 @@ h2 {
     font-weight: 400;
     font-style: normal;
 }
+video {
+    max-width: 100%;
+}
 
 img {
     max-width: 100%;
@@ -74,9 +77,14 @@ body {
     position:absolute ;
     z-index: 50;
 }
-#carr1{
+#videopr {
     margin-top: 5.8%;
-} 
+    border-radius: 30px;
+    overflow: hidden;
+}
+#videopr video {
+    border-radius: 30px;
+}
 .text_carr{
     background-color: #7BE0AD;
     border-radius: 50px;
@@ -93,11 +101,11 @@ body {
     margin-top: 20px;
     width: 100%;
     height: 100%;
-    background-image: url(./img/chocolatepal.jpg) ;
+    background-image: url(./img/chocolatepal.jpg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-position: center;
-
+    
     display: flex;
     justify-content: center;
     background-size: cover;
@@ -116,11 +124,12 @@ body {
 #cont_hel_cent ul li {
     list-style: none;
 }
+#cont_hel_cent p {
+    background-color: rgb(123,224,173), 30%;
+}
 .text-hel {
     font-size: 30px;
-    color: #E5D0E3;
     text-align: center;
-    background: #AEE5D8;
     border-radius: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
