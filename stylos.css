@@ -290,7 +290,10 @@ footer {
     #categorias div h2 {
         font-size: 40px; 
     }
-    #cont_hel_cent h2 ,#trnd h2  {
+    #cont_hel_cent h2  {
+        font-size: 60px;
+    }
+    #trnd h2 {
         font-size: 60px;
     }
 }
