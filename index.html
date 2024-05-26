@@ -44,21 +44,23 @@
   </header>
   <body>
 
-    <section class="container-xl" id="videopr">
+    <section class=".container-fluid" id="videopr">
       <video src="./videos/video1.mp4" class="object-fit-cover" autoplay loop muted ></video>
     </section>
 
     <section id="helado_centro" class="container-xl	shadow-lg p-3 mb-5 bg-body-tertiary rounded">
       <div class="container row " id="cont_hel_cent">
-        <ul class="col-md-3 col-sm-5 ">
+        <h2>Productos</h2>
+
+        <ul class="col-md-5 col-sm-6 ">
           <li>
             <div>
-              <img src="./img/cropped-1600-900-745717.jpg" alt="" class=" img_hel_cent border border-secondary-subtle">
+              <img src="./img/foto1.jpg" alt="" class="img_hel_cent border border-secondary-subtle">
               <p class="text-hel poetsen-one-regular">HELADOS CLÁSICOS</p>
             </div>
           </li>
           <li>
-            <div>
+            <div >
               <img src="./img/galletahe.png" alt="" class="img_hel_cent border border-secondary-subtle">
               <p class="text-hel poetsen-one-regular">SANDWICH DE GALLETA</p>
             </div>
@@ -70,7 +72,7 @@
             </div>
           </li>
         </ul>
-        <ul class="col-md-3 col-sm-5">
+        <ul class="col-md-5 col-sm-6">
           <li>
             <div>
               <img src="./img/paletasfres.jpg" alt="" class="img_hel_cent border border-secondary-subtle">
@@ -93,29 +95,41 @@
       </div>
     </section>
 
-    <section id="categorias">
-      <div class="container-xl row" id="uhuhu">
-        <h2 class="poetsen-one-regular col-12">Categorías</h2>
-        <div class="row" id="cat">
+    <section>
+      <div>
+        <img src="./img/barraText.png" alt="" id="imgaaa">
+      </div>
+      <div class="container" id="trnd">
+        <h2>Trending topic</h2>
 
-          <div class="col-md-3 col-sm-5">
-              <img src="./img/cucuruchos.jpg" alt="">
-              <p class="poetsen-one-regular minit">CUCURUCHOS</p>
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Trending1.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="col-md-3 col-sm-5">
-              <img src="./img/asdob.jpg" alt="">
-              <p class="poetsen-one-regular minit">BOLAS DE HELADO</p>
-            </div>
-          <div class="col-md-3 col-sm-5">
-              <img src="./img/cupcakes.jpg" alt="">
-              <p class="poetsen-one-regular minit">CUPCAKES</p>
-            </div>
-
+          <div class="carousel-item">
+            <img src="./img/trending2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/trending3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/trending4.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
 
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       </div>
     </section>
+    
   </body>
   <footer>
     <div class="container row" id="foot">
