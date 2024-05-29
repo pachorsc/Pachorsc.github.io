@@ -15,7 +15,14 @@ video {
 
 img {
     max-width: 100%;
+    cursor: pointer;
+    transition: 4s;
 }
+img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
 *{
     margin: 0;
     color: #7BE0AD;
