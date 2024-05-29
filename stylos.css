@@ -47,15 +47,7 @@ body {
     margin-left: none !important;
     margin-right:auto !important ;
 }
-@media (max-width: 991px) {
-    #duen {
-        height: 85%;
-    }
-    .nav-item {
-        text-align: end;
-    
-    }
-}
+
 
 #menu h1 {
     margin: 0;
@@ -209,11 +201,7 @@ footer {
     font-size: 2vh;
 }
 
-@media (min-width: 991px) {
-    #duen {
-        height: 85%;
-    }
-}
+
 #img-ant img {
     border-radius: 40px;
 }
@@ -295,5 +283,62 @@ footer {
     }
     #trnd h2 {
         font-size: 60px;
+    }
+}
+#map{
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+#map div {
+    background: #AEE5D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#map div img {
+    border-radius: 30px;
+}
+#from {
+    background: #E5D0E3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+#formcen {
+    display: flex;
+}
+#exampleFormControlTextarea1 {
+    margin-top: 1%;
+    height: 93%;
+    margin-bottom: 2%;
+}
+#asd {
+    margin-bottom: 20px;
+}
+#imgFor {
+    border-radius: 20px;
+}
+#enviarc {
+    margin-top: 8px;
+}
+@media (min-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+    
+}
+@media (max-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+    .nav-item {
+        text-align: end;
+    }
+    #asd {
+        margin-bottom: 56px; 
     }
 }
