@@ -3,12 +3,26 @@ blanco = FFFFFC;
 gris = BEB7A4;
 naranja claro = E97149;
 granate = 9D2525;
+azul = 3E92CC;
 image {
     max-width: 100%;
+}
+header {
+    background-color: #E97149;
+}
+.navbar-toggler {
+    margin-right: 10px;
+}
+.btn-outline-success {
+    margin-right: 10px;
+}
+.navbar-brand {
+    margin-right: 10px;
 }
 .bg-body-tertiary {
     background: #E97149 !important;
 }
+
 #soy {
     background-color: #E97149;
     display: flex;
