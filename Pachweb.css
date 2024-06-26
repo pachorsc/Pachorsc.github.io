@@ -1,0 +1,32 @@
+negro = 000000;
+blanco = FFFFFC;
+gris = BEB7A4;
+naranja claro = E97149;
+granate = 9D2525;
+image {
+    max-width: 100%;
+}
+.bg-body-tertiary {
+    background: #E97149 !important;
+}
+#soy {
+    background-color: #E97149;
+    display: flex;
+}
+#img-yo {
+    background-color: teal;
+    color: green;
+    border-radius: 350px;
+    max-width: 100%;
+    margin-top: 28px;
+}
+.boton-cont {
+    text-decoration: none;
+    color: #000;
+    border: solid 1px #000;
+    padding: 15px;
+}
+.boton-cont:hover {
+    background-color: #BEB7A4;
+    border: solid 2px;
+}
