@@ -45,6 +45,7 @@ header {
     color: #000;
     border: solid 1px #000;
     padding: 15px;
+    display: inline-block;
 }
 .boton-cont:hover {
     background-color: #BEB7A4;
@@ -57,10 +58,7 @@ header {
     padding-bottom: 40px;
     height: 110vh;
 }
-#albanta div ul li{
-    width: 120px;
-    text-align: left;
-}
+
 #alba-img {
     max-width: 100%;
 }
@@ -73,13 +71,131 @@ header {
     display: flex;
     justify-content: center;
     height: auto;
+    padding-bottom: 20px;
+}
+#bot-cone:hover {
+    background: #07605E;
 }
 #hela-img{
     max-width: 100%;
 }
-#Helados div ul li{
+.listas{
 
     text-align: left;
+}
+#vid-fon{
+    max-width: 100%;
+    margin-top: 16px;
+}
+#Foda {
+    background-color: #b8ac9c;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#Fonda:hover {
+    background: #3E92CC;
+}
+#otrosP {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+:root{
+    --theme-col: #E97149;
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+footer{
+    background-color: #111010;
+}
+.f-item-con{
+    padding: 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2rem;
+}
+footer .app-name{
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.app-name .app-initial{
+    color: var(--theme-col);
+}
+footer .app-info p{
+    color: white;
+    padding-left: 1.65rem;
+}
+
+footer .footer-title{ 
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+    height: fit-content;
+}
+footer ul{ 
+    padding-left: 1.75rem;
+    color: white;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem;
+    margin-top: .5rem;
+}
+footer ul li{ 
+    margin: .25rem 0;
+    cursor: pointer;
+    color: #d4d4d4;
+    width: fit-content;
+}
+footer ul li:hover{
+    color: white;
+}
+footer .help-sec{
+    grid-column-start: 2;
+}
+.g-i-t{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.g-i-t form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+form .g-inp{
+    padding: .25rem .5rem;
+    font-size: 16px;
+}
+.g-inp textarea{
+    height: 150px;
+}
+.f-btn{
+    padding: .25rem 1rem;
+    background-color: var(--theme-col);
+    border-radius: .25rem;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
 }
 @media screen and (max-width: 575px) {
     #soy {
@@ -95,7 +211,7 @@ header {
         margin-top: 20px;
     }
     #albanta div ul {
-        text-align: center;
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -105,6 +221,10 @@ header {
     }
     #Helados {
         padding-bottom: 40px;
+    }
+    .f-item-con{
+        display: flex;
+        flex-direction: column;
     }
 
 }
