@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: center;
     height: 100vh;
+    margin-top: -1px;
 }
 
 #img-yo {
@@ -54,6 +55,7 @@ header {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    height: 110vh;
 }
 #albanta div ul li{
     width: 120px;
@@ -62,6 +64,23 @@ header {
 #alba-img {
     max-width: 100%;
 }
+
+#bot-alb:hover{
+    background: #E97149;
+}
+#Helados {
+    background-color: #3E92CC;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+#hela-img{
+    max-width: 100%;
+}
+#Helados div ul li{
+
+    text-align: left;
+}
 @media screen and (max-width: 575px) {
     #soy {
         padding-bottom: 600px;
@@ -69,6 +88,8 @@ header {
     #albanta {
         display: flex;
         flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        height: auto;
     }
     #alba-img{
         margin-top: 20px;
@@ -79,7 +100,11 @@ header {
     align-items: center;
     flex-direction: column;
     }
-}
-#bot-alb:hover{
-    background: #E97149;
+    #hela-img{
+        margin-top: -1px;
+    }
+    #Helados {
+        padding-bottom: 40px;
+    }
+
 }
