@@ -4,6 +4,8 @@ gris = BEB7A4;
 naranja claro = E97149;
 granate = 9D2525;
 azul = 3E92CC;
+azul marino = 086375;
+albanta = 07605E;
 image {
     max-width: 100%;
 }
@@ -26,7 +28,10 @@ header {
 #soy {
     background-color: #E97149;
     display: flex;
+    justify-content: center;
+    height: 100vh;
 }
+
 #img-yo {
     background-color: teal;
     color: green;
@@ -43,4 +48,38 @@ header {
 .boton-cont:hover {
     background-color: #BEB7A4;
     border: solid 2px;
+}
+#albanta {
+    background-color: #07605E;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+#albanta div ul li{
+    width: 120px;
+    text-align: left;
+}
+#alba-img {
+    max-width: 100%;
+}
+@media screen and (max-width: 575px) {
+    #soy {
+        padding-bottom: 600px;
+    }
+    #albanta {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #alba-img{
+        margin-top: 20px;
+    }
+    #albanta div ul {
+        text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+}
+#bot-alb:hover{
+    background: #E97149;
 }
