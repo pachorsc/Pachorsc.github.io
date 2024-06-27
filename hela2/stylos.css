@@ -1,0 +1,351 @@
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+video {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    cursor: pointer;
+    transition: 4s;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+*{
+    margin: 0;
+    color: #7BE0AD;
+    color: #AEE5D8;
+    color: #E7E5E5;
+    color: #E5D0E3;
+    color: #E0B0D5;
+    color: #9A012E;
+} 
+
+#menu {
+    background-color: #7BE0AD !important;
+
+}
+body {
+    background-color: #E7E5E5 !important;
+    background-image: url(./img/fondo_PAntalla.avif);
+}
+#navbarSupportedContent a {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9A012E;
+    margin: 40px;
+    font-size: 50px;
+}
+
+.ms-auto {
+    margin-left: none !important;
+    margin-right:auto !important ;
+}
+
+
+#menu h1 {
+    margin: 0;
+}
+#listaM {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: center;
+}
+#listaM a {
+    text-decoration: none;
+    color: #9A012E;
+    font-size: 40px;
+}
+.curva {
+    position:absolute ;
+    z-index: 50;
+}
+#videopr {
+    margin-top: 5.8%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#videopr video {
+    border-radius: 30px;
+}
+#helado_centro{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+
+}
+.img_hel_cent{
+    max-width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+#cont_hel_cent {
+    justify-content: space-around;
+}
+#cont_hel_cent ul li {
+    list-style: none;
+}
+.text-hel {
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#categorias {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#categorias div h2 {
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#uhuhu {
+    justify-content: center;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+#cont_hel_cent h2 {
+    text-align: center;
+    font-size: 80px;
+}
+#cat {
+    display: flex;
+    justify-content: space-around;
+}
+#cat div img {
+    border-radius: 30px;
+}
+.minit {
+    font-size: 30px;
+}
+#log {
+    border-radius: 200px;
+}
+footer {
+    background-color: #E0B0D5;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ultf {
+    display: flex;
+    justify-content: center;
+}
+
+.iconS {
+    width: 50px;
+}
+#historia{
+    display: flex;
+    justify-content: center;
+}
+#historia > div {
+    background-color: #E0B0D5;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 15%;
+}
+#tienda-img {
+    border-radius: 30px;
+}
+#historia h2 {
+    text-align: center;
+}
+#fotos-ant {
+    background-color: #AEE5D8;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#fotos-ant h2 {
+    font-size: 5vh;
+    margin: 20px;
+}
+#img-ant{
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+
+#img-ant img {
+    border-radius: 40px;
+}
+#prim-pro {
+    width: 100%;
+    border-radius: 40px;
+}
+#texto-primprod {
+    font-size: 5vh;
+    text-align: center;
+}
+#boton-cont {
+    background-color: #AEE5D8;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#boton-cont h2 {
+    font-size: 5vh;
+    margin-bottom: 20px;
+}
+#boton-cont button {
+    margin-top: 20px;
+    
+}
+.ult-con {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ult-con img {
+    border-radius: 30px;
+}
+#Servicios {
+    display: flex;
+    align-items: center;
+    background-color: #AEE5D8;
+    padding: 20px;
+    padding-top: 15%;
+}
+#Servicios div>div>div img {
+    height: 200px;
+}
+.card {
+    height: 100% 
+}
+.card h5 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#imgaaa {
+    background: repeating-linear-gradient(45deg, #E7E5E5, transparent 100px);;
+}
+#carouselExampleRide {
+    border-radius: 50px;
+}
+#carouselExampleRide{
+    overflow: hidden;
+}
+#trnd {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#trnd h2 {
+    font-size: 80px;
+}
+@media (max-width: 575px) {
+    #categorias div h2 {
+        font-size: 40px; 
+    }
+    #cont_hel_cent h2  {
+        font-size: 60px;
+    }
+    #trnd h2 {
+        font-size: 60px;
+    }
+}
+#map{
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+#map div {
+    background: #AEE5D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+#map div img {
+    border-radius: 30px;
+}
+#from {
+    background: #E5D0E3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+#formcen {
+    display: flex;
+}
+#exampleFormControlTextarea1 {
+    margin-top: 1%;
+    height: 93%;
+    margin-bottom: 2%;
+}
+#asd {
+    margin-bottom: 20px;
+}
+#imgFor {
+    border-radius: 20px;
+}
+#enviarc {
+    margin-top: 8px;
+}
+@media (min-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+    
+}
+@media (max-width: 991px) {
+    #duen {
+        height: 85%;
+    }
+    .nav-item {
+        text-align: end;
+    }
+    #asd {
+        margin-bottom: 56px; 
+    }
+}
