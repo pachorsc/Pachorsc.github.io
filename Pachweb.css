@@ -46,6 +46,8 @@ header {
     margin-top: 28px;
 }
 .boton-cont {
+    margin: 10px;
+    width: 90%;
     text-decoration: none;
     color: #000;
     border: solid 1px #000;
@@ -112,8 +114,9 @@ header {
 #carr {
     border-radius: 30px;
     overflow: hidden;
-    margin: 20px;
+    margin-bottom: 20px;
 }
+
 
 
 
@@ -237,6 +240,15 @@ form .g-inp{
     .f-item-con{
         display: flex;
         flex-direction: column;
+    }
+    .g-i-t form{
+        width: 70%;
+    }
+    #correo{
+        font-size: smaller;
+    }
+    #comtfoot{
+        max-width: fit-content;
     }
 
 }
