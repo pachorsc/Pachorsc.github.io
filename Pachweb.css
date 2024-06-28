@@ -1,10 +1,11 @@
-negro = 000000;
-blanco = FFFFFC;
-gris = BEB7A4;
-naranja claro = E97149;
-granate = 9D2525;
-azul = 3E92CC;
-azul marino = 086375;
+$black: #000000ff;
+$baby-powder: #fffffcff;
+$khaki: #beb7a4ff;
+$burnt-sienna: #e97149ff;
+$auburn: #9d2525ff;
+$celestial-blue: #3e92ccff;
+$caribbean-current: #086375ff;
+$cerulean: #3c7a89ff;
 albanta = 07605E;
 image {
     max-width: 100%;
@@ -14,7 +15,12 @@ header {
     display: flex;
     justify-content: center;
 }
-
+#header-cont {
+    background: #FFFFFC;
+}
+#header-cont nav {
+    background: #FFFFFC !important;
+}
 #bot-header {
     width: min-content;
 }
@@ -32,6 +38,12 @@ header {
 }
 .bg-body-tertiary {
     background: #E97149 !important;
+}
+#main-contact {
+    background: #0f606b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #soy {
@@ -120,13 +132,37 @@ header {
     overflow: hidden;
     margin-bottom: 20px;
 }
+#zona-env {
+    background: #d4d2d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#zona-env video {
+    border-radius: 300px;
+    max-width: 100%;
+}
+#enviar-conta {
+    width: -webkit-fill-available;
+    background: #0f606b;
+}
 
 
 
-
-
-
-
+#zona-logo-foot {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#logo-foot {
+    margin-top: -15%;
+    max-width: 100%;
+    width: 200px;
+}
 :root{
     --theme-col: #E97149;
 }

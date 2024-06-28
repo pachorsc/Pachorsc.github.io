@@ -30,8 +30,30 @@
             </div>
           </nav>
     </header>
-    <main>
-        
+    <main id="main-contact" class="row">
+        <div id="zona-env" class="col-10 row">
+            <div class="col-sm-5">
+                <video src="./asets/vid/correo.mp4" muted autoplay loop="true"></video>
+            </div>
+            <div class="col-sm-5">
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button id="enviar-conta" type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                
+            </div>
+        </div>
     </main>
     <footer class=".container-fluid row">
         <div class="f-item-con">
@@ -40,6 +62,9 @@
                     <span class='app-initial'>P</span>acho
                 </span>
                 <p>Desarrollo webs <strong>bien organizadas </strong> y <strong> con SEO. </strong></p>
+            </div>
+            <div id="zona-logo-foot">
+                <img src="./asets/img/logo-blanco.png" id="logo-foot" alt="">
             </div>
             <div class="useful-links">
                 <div class="footer-title">Páginas de Freelance</div>
@@ -58,8 +83,8 @@
                 </ul>
             </div>
             <div class="g-i-t">
-                <div class="footer-title" id="contfoot">Contáctame</div>
-                <form action="/" method="post" class="space-y-2">
+                <div class="footer-title">Contáctame</div>
+                <form action="#" method="post" class="space-y-2">
                     <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
                     <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
                     <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
