@@ -288,9 +288,6 @@ form .g-inp{
         display: flex;
         flex-direction: column;
     }
-    .g-i-t form{
-        width: 70%;
-    }
     #correo{
         font-size: smaller;
     }
