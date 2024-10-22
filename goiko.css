@@ -176,6 +176,6 @@ button {
 #segunda {
   background-image: url("https://www.goiko.com/es/wp-content/uploads/2024/10/Carrusel_2x1.jpg");
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
   border: solid 1px white;
 }
