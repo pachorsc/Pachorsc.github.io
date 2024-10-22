@@ -17,7 +17,8 @@ video {
 }
 body {
     background-color: black;    
-    overflow: hidden;
+    overflow-x: hidden;
+    color: white;
 }
 
 nav {
@@ -131,8 +132,8 @@ button {
 #hamb div > p {
   color: white;
   font-family: "grande";
-  font-size:144px;
-  line-height:120px;
+  font-size:112px;
+  line-height:96px;
 }
 
 .blk {
@@ -168,5 +169,13 @@ button {
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/*Parte mas burguer*/
+#segunda {
+  background-image: url("https://www.goiko.com/es/wp-content/uploads/2024/10/Carrusel_2x1.jpg");
+  background-size: cover;
+  height: 50vh;
+  border: solid 1px white;
 }
