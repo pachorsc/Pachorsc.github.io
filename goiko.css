@@ -36,7 +36,7 @@ nav {
     gap: 20px;
 }
 
-div > svg  {
+#hamb div > svg  {
   min-width: 70px;
   height: 70px;
   cursor: pointer;
@@ -127,12 +127,15 @@ button {
 
 /*Seccion primera letras y hamburguesa*/
 #hamb {
-  margin-top: 5vh;
+  margin-top: 14vh;
+  position: relative;
+  height: 77vh;
 }
 #hamb div > p {
   color: white;
   font-family: "grande";
-  font-size:112px;
+  font-size:144px;
+  margin: 30px;
   line-height:96px;
 }
 
@@ -163,14 +166,12 @@ button {
   }
 }
 .vidHambur {
+  width: 96vh;
+  height: 96vh;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  display: flex;
-  justify-content: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 /*Parte mas burguer*/
 #segunda {
@@ -179,3 +180,30 @@ button {
   height: 100vh;
   border: solid 1px white;
 }
+#arrde {
+  position: relative;
+    right: 0;
+    left: 90%;
+    top: 40px;
+    display: flex;
+    align-items: center;
+}
+#dosx1{
+  position: relative;
+  bottom: 0;
+  top: 80%;
+  left: 4%;
+}
+#flechas {
+  display: flex;
+}
+#descflech {
+  display: flex;
+}
+#descfech  div {
+  width: 10px;
+}
+
+#descfech svg {
+  width: 100%;
+} 
