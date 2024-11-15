@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Trade+Winds&display=swap');
+:root {
+    --anecdota: 'Times New Roman', Times, serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: Trade Winds;
+}
+#primer {
+    background-image: url("https://www.enmusike.com/wp-content/uploads/2020/01/Sevilla-Directo-1024x601-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo {
+    font-family: Trade Winds;
+    font-size: 15vw;
+}
