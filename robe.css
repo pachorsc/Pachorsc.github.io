@@ -1,24 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Trade+Winds&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Trade+Winds&display=swap");
 :root {
-    --anecdota: 'Times New Roman', Times, serif;
+  --anecdota: "Times New Roman", Times, serif;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+svg,
+img {
+  width: 100%;
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  position: absolute;
+  width: 100dvw;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header > ul > li > a.menu {
+  font-size: 60px;
+  -webkit-text-stroke: white;
+  text-shadow: none !important;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  font-family: Trade Winds;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  -webkit-text-stroke: 1.4px black;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: 400;
 }
 h1 {
-    font-family: Trade Winds;
+  font-family: Trade Winds;
 }
 #primer {
-    background-image: url("https://www.enmusike.com/wp-content/uploads/2020/01/Sevilla-Directo-1024x601-1.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background-image: url("https://www.enmusike.com/wp-content/uploads/2020/01/Sevilla-Directo-1024x601-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 130dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#primer > div.logo {
+  padding-top: 200px;
+  padding-left: 4%;
 }
 .logo {
-    font-family: Trade Winds;
-    font-size: 15vw;
+  font-family: Trade Winds;
+  font-size: 12dvw;
+}
+#primer ul {
+  display: flex;
+  gap: 15px;
+}
+#primer ul li {
+  list-style: none;
+}
+#primer div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#primer div:last-child p {
+  color: white;
+  text-align: center;
+  font-family: "roboto ", sans-serif;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-size: 21px;
+}
+.cont_redSoc {
+  width: 50px;
+  padding: 8px;
+  background-color: #8f8f8f;
+  border-radius: 360%;
+  display: flex;
 }
