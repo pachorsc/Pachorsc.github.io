@@ -4,38 +4,45 @@
 :root {
   --anecdota: "Times New Roman", Times, serif;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-svg,
-img {
+
+svg,img {
   width: 100%;
   max-width: 100%;
 }
+
 body {
   overflow-x: hidden;
   background-color: #111111;
 }
+
 header {
   position: absolute;
   width: 100dvw;
   background-color: rgba(0, 0, 0, 0.3);
 }
+
 header ul {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+
 header > ul > li > a.menu {
   font-size: 60px;
   -webkit-text-stroke: white;
   text-shadow: none !important;
 }
+
 header ul li {
   list-style: none;
 }
+
 header ul li a {
   font-family: Trade Winds ;
   font-weight: 600;
@@ -47,9 +54,11 @@ header ul li a {
   text-shadow: 1px 1px 1px #000;
   font-weight: 400;
 }
+
 h1 {
   font-family: Trade Winds;
 }
+
 #primer {
   background-image: url("https://www.enmusike.com/wp-content/uploads/2020/01/Sevilla-Directo-1024x601-1.jpg");
   background-size: cover;
@@ -60,22 +69,27 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
+
 #primer > div.logo {
   padding-top: 200px;
   padding-left: 4%;
 }
+
 .logo {
   font-family:  Trade Winds;
   font-size: 12dvw;
   text-decoration: none;
 }
+
 #primer ul {
   display: flex;
   gap: 15px;
 }
+
 #primer ul li {
   list-style: none;
 }
+
 #primer div:last-child {
     display: flex;
     flex-direction: column;
@@ -85,6 +99,7 @@ h1 {
     gap: 10px;
     margin-bottom: 8%;
 }
+
 #primer div:last-child p {
   color: white;
   text-align: center;
@@ -93,6 +108,7 @@ h1 {
   font-stretch: expanded;
   font-size: 21px;
 }
+
 .cont_redSoc {
   width: 50px;
   padding: 8px;
@@ -122,11 +138,13 @@ h1 {
 
   padding-bottom: 8dvh;
 }
+
 .curva > h2 {
   font-size: 40px;
   margin-top: 180px;
   margin-bottom: 5%;
 }
+
 .curva > div {
   display: flex;
   width: 100%;
@@ -134,11 +152,13 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .strmstrm {
   width: 100px;
 }
+
 #anec {
-  height: 30dvh;
+  min-height: 30dvh;
   color: white;
   display: flex;
   font-family: --anecdota;
@@ -148,9 +168,11 @@ h1 {
   flex-wrap: wrap;
 
 }
+
 #anec div {
   width: 20%;
 }
+
 #anec div p {
   font-size: 32px;
   font-weight: 400;
@@ -162,6 +184,7 @@ h1 {
   font-weight: 400;
   
 }
+
 #contact {
   display: flex;
   flex-direction: column;
@@ -172,6 +195,7 @@ h1 {
   height: 20dvh;
   gap: 5%;
 }
+
 #contact h2 {
   font-family: Anton SC;
   font-size: 48px;
@@ -179,35 +203,62 @@ h1 {
   color: white;
   letter-spacing: 2px;
 }
+
 #contact input {
   width: 290px;
   height: 52px;
   border-radius: 4px;
   margin: 10px;
 }
+
 #contact input:last-child {
   width: 151px;
   font-family: var(--anecdota);
-  font-size: 35.85714340209961px;
+  font-size: 30px;
   font-weight: 400;
 }
+
 #contact form {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2%;
 }
-footer li {
+
+footer .logo{
   color: white;
 }
+
+footer  li {
+  color: white;
+  font-family: "roboto ", sans-serif;
+  font-size: 20px;
+  list-style: none;
+}
+footer ul {
+  display: flex;
+      gap: 5%;
+      margin: 10%;
+      max-width: 100%;
+      justify-content: center;
+}
+
 footer p {
   color: white;
   font-family: var(--anecdota);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
   text-align: center;
+  font-family: --anecdota;
+  margin-top: 4%;
+
+}
+footer > div:last-child{
+  width: 25%;
 }
