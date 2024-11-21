@@ -235,11 +235,12 @@ footer .logo{
   color: white;
 }
 
-footer  li {
+footer  li , a{
   color: white;
   font-family: "roboto ", sans-serif;
   font-size: 20px;
   list-style: none;
+  text-decoration: none;
 }
 footer ul {
   display: flex;
@@ -261,4 +262,53 @@ footer p {
 }
 footer > div:last-child{
   width: 25%;
+}
+/* Musica */
+header.osc {
+  background-color: #000000;
+}
+#zondiscos {
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./img/fondo2.png");
+  background-size: cover;
+  background-position: center;
+
+}
+#zondiscos > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#zondiscos > h2 {
+  font-size: 96px;
+  font-family: Anton SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.discos {
+  width: 20%;
+  margin: 3%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#ultimolan {
+  text-align: center;
+  background-color: #135752;
+  padding-bottom: 4%;
+}
+#ultimolan h2 {
+  font-size: 96px;
+  font-family: Anton SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+#ultimolan iframe {
+  width: 750px;
+  height: 500px;
+}
+.card-mus > div:first-child {
+  width: 30px;
 }
