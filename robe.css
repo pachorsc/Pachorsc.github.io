@@ -309,6 +309,14 @@ header.osc {
   width: 750px;
   height: 500px;
 }
+#music {
+  background-color: #66697D;
+}
+.card-mus{
+  background-color: #D9D9D9;
+  width: 300px;
+  display: flex;
+}
 .card-mus > div:first-child {
   width: 30px;
 }
