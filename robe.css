@@ -392,6 +392,7 @@ header.osc {
   background-color: #135752;
   padding-bottom: 4%;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   gap: 2%;
@@ -438,8 +439,37 @@ header.osc {
 }
 #libro > div:nth-child(2) div {
   width: 165px;
-  height: 270px;
+
 }
 #libro > div:nth-child(2) div img {
   height: 100%;
+}
+
+#productos {
+  background-image: url("./img/fondo-tienda.png");
+  height: 100dvh;
+  background-attachment: fixed;
+}
+.prod {
+  width: 290px;
+  height: 366px;
+  background-color: #66697D;
+  border-radius: 10px;
+  padding: 2%;
+
+  font-family: inter;
+  font-weight: 600;
+  color: #DBDBDB;
+}
+.prod > div:first-child {
+  background-color: #BBBBBB;
+  border-radius: 10px;
+  margin-bottom: 3%;
+
+}
+.prod > div:nth-child(2) {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  justify-content: space-between;
 }
