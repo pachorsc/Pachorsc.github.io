@@ -449,6 +449,8 @@ header.osc {
   background-image: url("./img/fondo-tienda.png");
   height: 100dvh;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 .prod {
   width: 290px;
@@ -472,4 +474,12 @@ header.osc {
   gap: 36px;
   flex-direction: column;
   justify-content: space-between;
+}
+#zona-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  width: 80%;
 }
