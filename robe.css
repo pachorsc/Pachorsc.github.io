@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 
-svg,img {
+svg,
+img {
   width: 100%;
   max-width: 100%;
 }
@@ -44,7 +45,7 @@ header ul li {
 }
 
 header ul li a {
-  font-family: Trade Winds ;
+  font-family: Trade Winds;
   font-weight: 600;
   font-size: 30px;
   text-decoration: none;
@@ -76,7 +77,7 @@ h1 {
 }
 
 .logo {
-  font-family:  Trade Winds;
+  font-family: Trade Winds;
   font-size: 12dvw;
   text-decoration: none;
 }
@@ -91,13 +92,13 @@ h1 {
 }
 
 #primer div:last-child {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8%;
 }
 
 #primer div:last-child p {
@@ -120,13 +121,13 @@ h1 {
 .curva {
   position: relative;
   top: -150px;
-  --c: 150px; 
-  --d:50px;
+  --c: 150px;
+  --d: 50px;
   width: 100dvw;
-  mask: radial-gradient(50% var(--c) at top,#0000 calc(100% - 1px),#000);
+  mask: radial-gradient(50% var(--c) at top, #0000 calc(100% - 1px), #000);
   border-radius: 0 0 50px 50px;
 
-  background: #66777D;
+  background: #66777d;
   color: #111111;
   font-family: Anton SC;
   text-align: center;
@@ -166,7 +167,6 @@ h1 {
   justify-content: space-evenly;
   align-content: flex-start;
   flex-wrap: wrap;
-
 }
 
 #anec div {
@@ -182,7 +182,6 @@ h1 {
 #anec div h2 {
   font-size: 48px;
   font-weight: 400;
-  
 }
 
 #contact {
@@ -231,11 +230,12 @@ footer {
   padding-bottom: 2%;
 }
 
-footer .logo{
+footer .logo {
   color: white;
 }
 
-footer  li , a{
+footer li,
+a {
   color: white;
   font-family: "roboto ", sans-serif;
   font-size: 20px;
@@ -244,10 +244,10 @@ footer  li , a{
 }
 footer ul {
   display: flex;
-      gap: 5%;
-      margin: 10%;
-      max-width: 100%;
-      justify-content: center;
+  gap: 5%;
+  margin: 10%;
+  max-width: 100%;
+  justify-content: center;
 }
 
 footer p {
@@ -258,9 +258,8 @@ footer p {
   text-align: center;
   font-family: --anecdota;
   margin-top: 4%;
-
 }
-footer > div:last-child{
+footer > div:last-child {
   width: 25%;
 }
 /* Musica */
@@ -275,7 +274,6 @@ header.osc {
   background-image: url("./img/fondo2.png");
   background-size: cover;
   background-position: center;
-
 }
 #zondiscos > div {
   display: flex;
@@ -286,7 +284,7 @@ header.osc {
   font-size: 96px;
   font-family: Anton SC;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .discos {
   width: 20%;
@@ -303,14 +301,14 @@ header.osc {
   font-size: 96px;
   font-family: Anton SC;
   font-weight: 400;
-  color: #E2E2E2;
+  color: #e2e2e2;
 }
 #ultimolan iframe {
   width: 750px;
   height: 500px;
 }
 #music {
-  background-color: #66697D;
+  background-color: #66697d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -322,10 +320,10 @@ header.osc {
   font-family: Anton SC;
   font-weight: 400;
   letter-spacing: 0%;
-  color: #E2E2E2;
+  color: #e2e2e2;
 }
-.card-mus{
-  background-color: #D9D9D9;
+.card-mus {
+  background-color: #d9d9d9;
   display: flex;
   width: 500px;
   height: 120px;
@@ -343,30 +341,29 @@ header.osc {
   color: #484848;
 }
 .card-mus > div:first-child {
-
   background-size: cover;
   background-position: center;
   width: 120px;
 }
-#music >div > div.card-mus:nth-child(1) > div:first-child {
+#music > div > div.card-mus:nth-child(1) > div:first-child {
   background-image: url("./img/disco5.png");
 }
-#music >div > div.card-mus:nth-child(2) > div:first-child {
+#music > div > div.card-mus:nth-child(2) > div:first-child {
   background-image: url("./img/disco2.png");
 }
-#music >div > div.card-mus:nth-child(3) > div:first-child {
+#music > div > div.card-mus:nth-child(3) > div:first-child {
   background-image: url("./img/disco4.png");
 }
-#music >div > div.card-mus:nth-child(4) > div:first-child {
+#music > div > div.card-mus:nth-child(4) > div:first-child {
   background-image: url("./img/disco1.png");
 }
-#music >div > div.card-mus:nth-child(5) > div:first-child {
+#music > div > div.card-mus:nth-child(5) > div:first-child {
   background-image: url("./img/disco5.png");
 }
-#music >div > div.card-mus:nth-child(6) > div:first-child {
+#music > div > div.card-mus:nth-child(6) > div:first-child {
   background-image: url("./img/disco3.png");
 }
-#music .card-mus > div:nth-child(2){
+#music .card-mus > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -387,7 +384,7 @@ header.osc {
   width: 96%;
 }
 /* Tienda */
-#libro {
+.libro {
   padding-top: 15%;
   background-color: #135752;
   padding-bottom: 4%;
@@ -397,12 +394,12 @@ header.osc {
   justify-content: center;
   gap: 2%;
 }
-#libro h2 {
+.libro h2 {
   font-size: 48px;
   font-family: Anton SC;
   font-weight: 400;
 }
-#libro > div:nth-child(1) {
+.libro > div:nth-child(1) {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -410,44 +407,41 @@ header.osc {
   justify-content: space-between;
   gap: 7dvh;
 }
-#libro > div > div:nth-child(1) > p:nth-child(2) {
+.libro > div > div:nth-child(1) > p:nth-child(2) {
   font-size: 20px;
   font-family: Inter;
   font-weight: 700;
   color: #571318;
 }
-#libro > div > div:nth-child(1) > p:nth-child(3){
-  
+.libro > div > div:nth-child(1) > p:nth-child(3) {
   font-size: 15px;
   font-family: Inter;
   font-weight: 400;
 }
 
-
-#libro a {
+.libro a {
   color: black;
   font-family: inter;
   font-weight: 600;
-  background-color: #25AAA0;
+  background-color: #25aaa0;
 
   padding: 10px 20px;
   border-radius: 34px;
 }
-#libro > div:nth-child(2) {
+.libro > div:nth-child(2) {
   display: flex;
   gap: 4%;
 }
-#libro > div:nth-child(2) div {
+.libro > div:nth-child(2) div {
   width: 165px;
-
 }
-#libro > div:nth-child(2) div img {
+.libro > div:nth-child(2) div img {
   height: 100%;
 }
 
 #productos {
   background-image: url("./img/fondo-tienda.png");
-  height: 100dvh;
+  min-height: 100dvh;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -455,19 +449,19 @@ header.osc {
 .prod {
   width: 290px;
   height: 366px;
-  background-color: #66697D;
+  background-color: #66697d;
   border-radius: 10px;
   padding: 2%;
 
   font-family: inter;
   font-weight: 600;
-  color: #DBDBDB;
+  color: #dbdbdb;
+  margin: 1%;
 }
 .prod > div:first-child {
-  background-color: #BBBBBB;
+  background-color: #bbbbbb;
   border-radius: 10px;
   margin-bottom: 3%;
-
 }
 .prod > div:nth-child(2) {
   display: flex;
@@ -480,6 +474,127 @@ header.osc {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2%;
   width: 80%;
+}
+
+/* Zona de sorteo de guitarra */
+#guitarra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #66697d;
+  gap: 2%;
+  padding: 3%;
+}
+#guitarra > div:first-child {
+  overflow: hidden;
+  border-radius: 50px;
+}
+#guitarra h2 {
+  font-size: 64px;
+  font-family: Anton SC;
+  font-weight: 400;
+  color: #dbdbdb;
+  margin-bottom: 4%;
+}
+#guitarra > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#guitarra > div:nth-child(2) > div {
+  background-color: #d9d9d9;
+  padding: 30px;
+  width: 100%;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+#guitarra > div:nth-child(2) > div > h3 {
+  font-size: 44px;
+  font-family: Anton SC;
+  font-weight: 400;
+  color: #111111;
+}
+#guitarra > div:nth-child(2) > div form {
+  display: flex;
+  gap: 2%;
+}
+#guitarra > div:nth-child(2) > div input:first-child {
+  width: 300px;
+  height: 50px;
+}
+#guitarra > div:nth-child(2) > div input:nth-child(2) {
+  width: 177px;
+  height: 50px;
+  font-size: 29px;
+  font-family: Anton SC;
+  font-weight: 200;
+  color: #dbdbdb;
+  background-color: #677e6f;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#guitarra > div:nth-child(2) > div input {
+  border-radius: 10px;
+  border: none;
+}
+/*Biografia zona*/
+#bio {
+  padding: 15dvh 3% 10px 3%;
+  background-color: #e2e2e2;
+}
+#bio > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4dvh;
+}
+#bio > div > div {
+  display: flex;
+  gap: 4%;
+}
+#bio > div > div > div {
+  width: 50%;
+}
+#bio > div > div h2 {
+  font-size: 64px;
+  font-family: Anton SC;
+  font-weight: 400;
+}
+#bio > div > div p {
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+}
+#bio > div:first-child > div:first-child > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bio div:first-child > div:first-child > img {
+  width: 500px;
+}
+#bio div > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bio div > div:nth-child(2) > img {
+  width: 470px;
+}
+#bio div > div:nth-child(2) > div {
+  padding-left: 4%;
+}
+#bio  div > div:nth-child(3) :first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bio > div > div:nth-child(3)  img {
+  width: 500px;
 }
