@@ -448,7 +448,6 @@ header.osc {
 }
 .prod {
   width: 290px;
-  height: 366px;
   background-color: #66697d;
   border-radius: 10px;
   padding: 2%;
@@ -466,6 +465,7 @@ header.osc {
 .prod > div:nth-child(2) {
   display: flex;
   gap: 36px;
+  height: 108px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -474,7 +474,7 @@ header.osc {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 88%;
 }
 
 /* Zona de sorteo de guitarra */
@@ -565,6 +565,7 @@ header.osc {
   font-size: 64px;
   font-family: Anton SC;
   font-weight: 400;
+  margin-bottom: 4dvh;
 }
 #bio > div > div p {
   font-size: 24px;
@@ -597,4 +598,8 @@ header.osc {
 }
 #bio > div > div:nth-child(3)  img {
   width: 500px;
+}
+/*Producto elegido*/
+#elegido {
+  padding-top: 15%;
 }
