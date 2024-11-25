@@ -684,10 +684,10 @@ header.osc {
 #elegido > div > div:nth-child(2)> button {
   font-family: Anton SC;
   text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 24px;
   border: solid 0.5px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
