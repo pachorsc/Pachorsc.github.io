@@ -23,4 +23,15 @@ document.addEventListener("DOMContentLoaded", ()=>{
             </div>
         </div>`;
         zon.innerHTML = str;
+
+    const recom = document.querySelector("#zona-rec");
+    let productosR = prod.filter((prd) => prd.tipo == product["tipo"] && prd.id != product["id"]);
+    console.log(productosR);
+    productosR.forEach(prod => {
+        recom.innerHTML += `
+            <div class="recomProd">
+                <img src="${prod.img}" alt="">
+            </div>
+        `;
+    });
 });

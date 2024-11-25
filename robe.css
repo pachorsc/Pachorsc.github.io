@@ -690,4 +690,21 @@ header.osc {
   border-radius: 10px;
   cursor: pointer;
 }
+/*recomendados*/
+#recom {
+  text-align: center;
+  padding: 40px;
+} 
+#zona-rec {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+
+}
+.recomProd {
+  width: 20%;
+  background-color:#484848 ;
+  border-radius: 20px;
+}
 
