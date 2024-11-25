@@ -3,7 +3,7 @@ const prod = [
     {   
         "id":1,
         "img":"./img/taza-robe.png",
-        "nombre": "taza Robe",
+        "nombre": "Taza Robe",
         "descrip": "Taza de cerámica de color negro, con motivos del último trabajo de Robe, \"Se nos lleva el aire\".<br>Este producto se recibirá a partir del día 15 de diciembre, fecha oficial del estreno de \"Se nos lleva el aire\"",
         "precio" : "10,99"
     },
@@ -31,28 +31,28 @@ const prod = [
     {
         "id":5,
         "img":"./img/chaqueta-libre-negra-robe.png",
-        "nombre": "camiseta libre negra Robe",
+        "nombre": "Camiseta libre negra Robe",
         "descrip": "Camiseta \"Se nos lleva el aire\". La opción de color negro, cuenta con las fechas de la gira \"Ni santos ni inocentes\" de 2024 en la parte trasera de la camiseta.",
         "precio" : "15,99"
     }, 
     {
         "id":6,
         "img":"./img/camiseta-rosanegro-robe.png",
-        "nombre": "camiseta rosanegro robe",
+        "nombre": "Camiseta rosanegro robe",
         "descrip": "Camiseta \"El hombre pájaro\", en formato unisex y en tres colores disponibles (negro, granate y morado). La opción de color negro, cuenta con las fechas de la gira \"Ni santos ni inocentes\" de 2024 en la parte trasera de la camiseta.",
         "precio" : "12,99"
     },   
     {
         "id":7,
         "img":"./img/camiseta-azul-robe.png",
-        "nombre": "camiseta azul robe",
+        "nombre": "Camiseta azul robe",
         "descrip": "Camiseta \"el Azul\", en formato unisex y en  color azul. Cuenta con las fechas de la gira \"El aire\" de 2020 en la parte trasera de la camiseta.",
         "precio" : "17,99"
     }, 
     {
         "id":8,
         "img":"./img/camiseta-negra-guitarra-robe.png",
-        "nombre": "camiseta negra guitarra robe",
+        "nombre": "Camiseta negra guitarra robe",
         "descrip": "Camiseta \"Nada que perder\", en formato unisex y en tres colores disponibles (negro, granate y morado). La opción de color negro, cuenta con las fechas de la gira \"Ni santos ni inocentes\" de 2024 en la parte trasera de la camiseta.",
         "precio" : "15,99"
     }

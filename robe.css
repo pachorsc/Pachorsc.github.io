@@ -446,6 +446,7 @@ header.osc {
   display: flex;
   justify-content: center;
 }
+
 .prod {
   width: 290px;
   background-color: #66697d;
@@ -457,11 +458,13 @@ header.osc {
   color: #dbdbdb;
   margin: 1%;
 }
+
 .prod > div:first-child {
   background-color: #bbbbbb;
   border-radius: 10px;
   margin-bottom: 3%;
 }
+
 .prod > div:nth-child(2) {
   display: flex;
   gap: 36px;
@@ -469,12 +472,13 @@ header.osc {
   flex-direction: column;
   justify-content: space-between;
 }
+
 #zona-prod {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 88%;
+  width: 80%;
 }
 
 /* Zona de sorteo de guitarra */
@@ -486,10 +490,12 @@ header.osc {
   gap: 2%;
   padding: 3%;
 }
+
 #guitarra > div:first-child {
   overflow: hidden;
   border-radius: 50px;
 }
+
 #guitarra h2 {
   font-size: 64px;
   font-family: Anton SC;
@@ -497,12 +503,14 @@ header.osc {
   color: #dbdbdb;
   margin-bottom: 4%;
 }
+
 #guitarra > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
+
 #guitarra > div:nth-child(2) > div {
   background-color: #d9d9d9;
   padding: 30px;
@@ -515,20 +523,24 @@ header.osc {
   justify-content: space-evenly;
   gap: 30px;
 }
+
 #guitarra > div:nth-child(2) > div > h3 {
   font-size: 44px;
   font-family: Anton SC;
   font-weight: 400;
   color: #111111;
 }
+
 #guitarra > div:nth-child(2) > div form {
   display: flex;
   gap: 2%;
 }
+
 #guitarra > div:nth-child(2) > div input:first-child {
   width: 300px;
   height: 50px;
 }
+
 #guitarra > div:nth-child(2) > div input:nth-child(2) {
   width: 177px;
   height: 50px;
@@ -540,66 +552,142 @@ header.osc {
   border-radius: 10px;
   cursor: pointer;
 }
+
 #guitarra > div:nth-child(2) > div input {
   border-radius: 10px;
   border: none;
 }
+
 /*Biografia zona*/
 #bio {
   padding: 15dvh 3% 10px 3%;
   background-color: #e2e2e2;
 }
+
 #bio > div {
   display: flex;
   flex-direction: column;
   gap: 4dvh;
 }
+
 #bio > div > div {
   display: flex;
   gap: 4%;
 }
+
 #bio > div > div > div {
   width: 50%;
 }
+
 #bio > div > div h2 {
   font-size: 64px;
   font-family: Anton SC;
   font-weight: 400;
   margin-bottom: 4dvh;
 }
+
 #bio > div > div p {
   font-size: 24px;
   font-family: Inter;
   font-weight: 400;
 }
+
 #bio > div:first-child > div:first-child > div:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #bio div:first-child > div:first-child > img {
   width: 500px;
 }
+
 #bio div > div:nth-child(2) > div:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #bio div > div:nth-child(2) > img {
   width: 470px;
 }
+
 #bio div > div:nth-child(2) > div {
   padding-left: 4%;
 }
+
 #bio  div > div:nth-child(3) :first-child {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #bio > div > div:nth-child(3)  img {
   width: 500px;
 }
+
 /*Producto elegido*/
 #elegido {
-  padding-top: 15%;
+  padding-top: 120px;
+  padding-bottom: 5%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#elegido > div > div:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#elegido > div {
+  background-color: #8f8f8f;
+  display: flex;
+  width: 75%;
+  border-radius: 30px;
+  padding: 5%;
+}
+
+#elegido > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+#elegido > div > div:nth-child(2) > button {
+  width: 40%;
+  height: 50px;
+}
+
+#elegido > div > div:nth-child(2) > h2{
+  font-size: 64px;
+  font-family: Anton SC;
+  font-weight: 400;
+  margin-bottom: 4dvh;
+}
+
+#elegido > div > div:nth-child(2) > p {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+#elegido > div > div:nth-child(2)> :nth-child(2) {
+  font-weight: 800 !important;
+}
+
+#elegido > div > div:nth-child(2)> button {
+  font-family: Anton SC;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: solid 0.5px;
+  border-radius: 10px;
+}
+
