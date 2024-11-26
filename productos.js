@@ -6,7 +6,7 @@ const prod = [
         "nombre": "Taza Robe",
         "descrip": "Taza de cerámica de color negro, con motivos del último trabajo de Robe, \"Se nos lleva el aire\".<br>Este producto se recibirá a partir del día 15 de diciembre, fecha oficial del estreno de \"Se nos lleva el aire\"",
         "precio" : "10,99",
-        "tipo": "casa"
+        "tipo": "otros"
     },
     {   
         "id":2,
@@ -63,6 +63,37 @@ const prod = [
         "descrip": "Camiseta \"Nada que perder\", en formato unisex y en tres colores disponibles (negro, granate y morado). La opción de color negro, cuenta con las fechas de la gira \"Ni santos ni inocentes\" de 2024 en la parte trasera de la camiseta.",
         "precio" : "15,99",
         "tipo": "camisa"
+    },
+    {
+        "id":9,
+        "img":"./img/sudadera-el-hombre-pajaro-removebg-preview.png",
+        "nombre": "Chaqueta el hombre pajaro",
+        "descrip": "Chaqueta \"el hombre pajaro\", en formato unisex y en tres colores disponible en negro . La opción de color negro, cuenta con las fechas de la gira \"El hombre pajaro\" de 2024 en la parte trasera de la camiseta.",
+        "precio" : "40,99",
+        "tipo": "chaqueta"
+    }, {
+        "id":10,
+        "img":"./img/sudadera-pajaros-removebg-preview.png",
+        "nombre": "Chaqueta pajaros",
+        "descrip": "Chaqueta \"Pajaros\", en formato unisex y en tres colores disponible en negro. La opción de color negro, cuenta con las fechas de la gira \"El hombre pajaro\" de 2024 en la parte trasera de la camiseta.",
+        "precio" : "40,99",
+        "tipo": "chaqueta"
+    }, 
+    {
+        "id":11,
+        "img":"./img/image-removebg-preview.png",
+        "nombre": "Taza Destrozares",
+        "descrip": "Taza de cerámica de color negro, con motivos del último trabajo de Robe, \"Destrozares\".<br>Este producto se recibirá a partir del día 10 de junio, fecha oficial del estreno de \"Destrozares\"",
+        "precio" : "40,99",
+        "tipo": "otros"
+    },
+    {
+        "id":12,
+        "img":"./img/MockupCDSNLEAcopy-removebg-preview.png",
+        "nombre": "CD - Se nos lleva el aire",
+        "descrip": "\"Se nos lleva el aire\” es el cuarto trabajo de estudio de Roberto Iniesta, Robe: diez canciones integran el disco, diez composiciones de rock aliñado por momentos con toques psicodélicos y progresivos que, presididas por la reconocible marca creativa de Robe, no dejarán indiferente a sus seguidores. Un disco de ‘10’, y no sólo por el número de canciones que contiene.",
+        "precio" : "20,99",
+        "tipo": "otros"
     }
 
 ]

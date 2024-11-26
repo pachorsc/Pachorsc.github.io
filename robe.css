@@ -16,6 +16,10 @@ img {
   width: 100%;
   max-width: 100%;
 }
+img:hover {
+  transition: all 1.2s  ;
+  scale: 1.1;
+}
 
 body {
   overflow-x: hidden;
@@ -191,8 +195,8 @@ h1 {
 
   background-color: #135752;
   text-align: center;
-  height: 20dvh;
-  gap: 5%;
+  gap: 20px;
+  padding: 4%;
 }
 
 #contact h2 {
@@ -630,10 +634,10 @@ header.osc {
 #elegido {
   padding-top: 120px;
   padding-bottom: 5%;
-  background-color: #d9d9d9;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #66777d;
 }
 
 #elegido > div > div:first-child {
@@ -644,7 +648,7 @@ header.osc {
 }
 
 #elegido > div {
-  background-color: #8f8f8f;
+  background-color: #d9d9d9;
   display: flex;
   width: 75%;
   border-radius: 30px;
@@ -694,17 +698,27 @@ header.osc {
 #recom {
   text-align: center;
   padding: 40px;
+  background-color: #111111;
 } 
+#recom h2 {
+  font-size: 64px;
+  font-family: Anton SC;
+  font-weight: 400;
+  color: #dbdbdb;
+  margin-bottom: 4%;
+}
 #zona-rec {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 2%;
-
+  justify-content: center;
+  gap: 20px;
 }
 .recomProd {
-  width: 20%;
-  background-color:#484848 ;
+  width: 50%;
+  max-width: 300px;
+  background-color:#d9d9d99d ;
   border-radius: 20px;
 }
 

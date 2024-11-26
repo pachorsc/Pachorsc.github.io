@@ -27,11 +27,13 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const recom = document.querySelector("#zona-rec");
     let productosR = prod.filter((prd) => prd.tipo == product["tipo"] && prd.id != product["id"]);
     console.log(productosR);
-    productosR.forEach(prod => {
-        recom.innerHTML += `
-            <div class="recomProd">
+    productosR.forEach((prod, con) => {
+        if (con <4) {
+            recom.innerHTML += `
+            <a href="http://127.0.0.1:3000/producto.html?id=${prod.id}" class="recomProd">
                 <img src="${prod.img}" alt="">
-            </div>
+            </a>
         `;
+        }
     });
 });
