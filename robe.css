@@ -203,14 +203,13 @@ h1 {
   gap: 20px;
   padding: 4%;
 }
-@media (max-width:700px) {
+@media (max-width: 700px) {
   #contact form {
-    flex-direction: column;;
-    
+    flex-direction: column;
   }
 }
 
-@media (max-width:615px) {
+@media (max-width: 615px) {
   header ul {
     flex-direction: column;
   }
@@ -341,7 +340,7 @@ header.osc {
   width: 750px;
   height: 500px;
 }
-@media (max-width:760px) {
+@media (max-width: 760px) {
   #ultimolan iframe {
     width: 59%;
     height: 300px;
@@ -468,6 +467,9 @@ header.osc {
 
   padding: 10px 20px;
   border-radius: 34px;
+
+  justify-content: center;
+  align-items: center;
 }
 .libro > div:nth-child(2) {
   display: flex;
@@ -490,6 +492,8 @@ header.osc {
   background-attachment: fixed;
   display: flex;
   justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .prod {
@@ -524,6 +528,7 @@ header.osc {
   justify-content: center;
   align-items: center;
   width: 80%;
+  gap: 17px;
 }
 
 /* Zona de sorteo de guitarra */
@@ -700,7 +705,6 @@ header.osc {
   padding: 5%;
 }
 
-
 #elegido > div > div:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -782,7 +786,10 @@ header.osc {
   }
   footer > div:last-child {
     width: 80%;
-}
+  }
+  .prod {
+    padding: 20px;
+  }
 }
 @media (max-width: 774px) {
   #music > h2 {
@@ -792,77 +799,84 @@ header.osc {
     font-size: 70px;
   }
 }
-@media (max-width:615px) {
+@media (max-width: 615px) {
   #zondiscos {
-    padding-top: 60%;
+    padding-top: 80%;
   }
   .discos {
-    width: 37% ;
+    width: 37%;
   }
   #zondiscos > h2 {
-    font-size: 60px ;
+    font-size: 60px;
   }
   .card-mus {
-    width: 100% ;
+    width: 100%;
   }
   #music > h2 {
-    font-size: 44px ;
-}
+    font-size: 44px;
+  }
   #music > div {
-  width: 100%;
-}
-.libro {
-  padding-top: 64%;
-}
-.libro > div:nth-child(1) {
-  width: 75%;
-}
-.libro > div:nth-child(2) {
-  margin-top: 31px;
-}
-.libro > div > :nth-child(2) {
-  display: flex;
+    width: 100%;
+  }
+  .libro {
+    padding-top: 80%;
+  }
+  .libro > div:nth-child(1) {
+    width: 75%;
+  }
+  .libro > div:nth-child(2) {
+    margin-top: 31px;
+  }
+  .libro > div > :nth-child(2) {
+    display: flex;
     justify-content: center;
     gap: 2%;
+  }
+  #guitarra h2 {
+    font-size: 35px;
+  }
+  #guitarra > div:nth-child(2) > div form {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #bio {
+    padding: 32dvh 3% 10px 3%;
+  }
+  #bio > div > div {
+    flex-direction: column;
+  }
+  #bio > div > div > div {
+    width: 100%;
+  }
+  #bio > div > div h2 {
+    font-size: 44px;
+  }
+  #bio div > div:nth-child(2) > div {
+    padding-left: 0%;
+  }
+  .bioli {
+    padding-top: 4%;
+  }
+  #elegido {
+    padding-top: 72%;
+  }
+  #recom h2 {
+    font-size: 44px;
+  }
+  .recomProd {
+    width: 80%;
+  }
+  #contact {
+    align-items: flex-start;
+  }
 }
-#guitarra h2 {
-  font-size: 35px;
-}
-#guitarra > div:nth-child(2) > div form {
-  display: flex;
-  gap: 18px;
-  flex-direction: column;
-  align-items: center;
-}
-#bio {
-  padding: 32dvh 3% 10px 3%;
-}
-#bio > div > div {
-  flex-direction: column;
-}
-#bio > div > div > div {
-  width: 100%;
-}
-#bio > div > div h2 {
-  font-size: 44px;
-}
-#bio div > div:nth-child(2) > div {
-  padding-left: 0%;
-}
-.bioli {
-  padding-top: 4%;
-}
-#elegido {
-  padding-top: 72%;
-}
-#recom h2 {
-  font-size: 44px;
-}
-.recomProd {
-  width: 80%;
-}
-}
-@media (max-width:375px) {
+
+@media (max-width: 375px) {
+  #primer {
+    justify-content: space-around;
+  }
   #primer div:last-child {
     gap: 6px;
     margin-bottom: 20%;
@@ -870,6 +884,65 @@ header.osc {
   #primer ul {
     gap: 5px;
   }
-
+  #anec div {
+    width: 78%;
+  }
+  #guitarra h2 {
+    text-align: center;
+  }
+  .libro h2 {
+    font-size: 45px;
+  }
+  footer ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #ultimolan h2 {
+    font-size: 50px;
+  }
+  #ultimolan iframe {
+    width: 84%;
+    height: 228px;
+  }
+  #music > h2 {
+    font-size: 54px;
+    text-align: center;
+  }
+  #music .card-mus > div:nth-child(2) {
+    width: 238px;
+  }
+  .libro a {
+    font-size: 18px;
+  }
+  .libro > div:nth-child(2) {
+    width: 90%;
+}
+#elegido {
+  padding-top: 90%;
+}
+#elegido > div > div:nth-child(2) > h2 {
+  font-size: 41px;
+}
+#recom h2 {
+  font-size: 35px;
+}
+#guitarra > div:nth-child(2) > div > h3 {
+  font-size: 40px;
+}
+#guitarra > div:nth-child(2) > div input:first-child {
+  width: 253px;
+}
+#bio {
+  padding: 55dvh 3% 10px 3%;
+}
+#bio div > div:nth-child(2) > img {
+  margin-top: 40px;
+}
+#bio div > div:nth-child(3) :first-child {
+  padding-bottom: 30px;
+}
+#bio {
+  padding: 57dvh 3% 40px 3%;
+}
 }
 
