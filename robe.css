@@ -308,6 +308,7 @@ header.osc {
   background-size: cover;
   background-position: center;
 }
+
 #zondiscos > div {
   display: flex;
   flex-wrap: wrap;
@@ -360,14 +361,7 @@ header.osc {
   font-weight: 400;
   color: #e2e2e2;
 }
-@media (max-width: 774px) {
-  #music > h2 {
-    font-size: 70px;
-  }
-  #ultimolan h2 {
-    font-size: 70px;
-  }
-}
+
 .card-mus {
   background-color: #d9d9d9;
   display: flex;
@@ -705,20 +699,7 @@ header.osc {
   border-radius: 30px;
   padding: 5%;
 }
-@media (max-width: 768px) {
-  #elegido > div {
-    flex-direction: column;
-  }
-  #elegido > div > div:nth-child(2) > button {
-    margin: auto;
-  }
-  #guitarra {
-    flex-direction: column;
-  }
-  #guitarra h2 {
-    font-size: 45px;
-  }
-}
+
 
 #elegido > div > div:nth-child(2) {
   display: flex;
@@ -786,3 +767,109 @@ header.osc {
   background-color: #d9d9d99d;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  #elegido > div {
+    flex-direction: column;
+  }
+  #elegido > div > div:nth-child(2) > button {
+    margin: auto;
+  }
+  #guitarra {
+    flex-direction: column;
+  }
+  #guitarra h2 {
+    font-size: 45px;
+  }
+  footer > div:last-child {
+    width: 80%;
+}
+}
+@media (max-width: 774px) {
+  #music > h2 {
+    font-size: 70px;
+  }
+  #ultimolan h2 {
+    font-size: 70px;
+  }
+}
+@media (max-width:615px) {
+  #zondiscos {
+    padding-top: 60%;
+  }
+  .discos {
+    width: 37% ;
+  }
+  #zondiscos > h2 {
+    font-size: 60px ;
+  }
+  .card-mus {
+    width: 100% ;
+  }
+  #music > h2 {
+    font-size: 44px ;
+}
+  #music > div {
+  width: 100%;
+}
+.libro {
+  padding-top: 64%;
+}
+.libro > div:nth-child(1) {
+  width: 75%;
+}
+.libro > div:nth-child(2) {
+  margin-top: 31px;
+}
+.libro > div > :nth-child(2) {
+  display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#guitarra h2 {
+  font-size: 35px;
+}
+#guitarra > div:nth-child(2) > div form {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+}
+#bio {
+  padding: 32dvh 3% 10px 3%;
+}
+#bio > div > div {
+  flex-direction: column;
+}
+#bio > div > div > div {
+  width: 100%;
+}
+#bio > div > div h2 {
+  font-size: 44px;
+}
+#bio div > div:nth-child(2) > div {
+  padding-left: 0%;
+}
+.bioli {
+  padding-top: 4%;
+}
+#elegido {
+  padding-top: 72%;
+}
+#recom h2 {
+  font-size: 44px;
+}
+.recomProd {
+  width: 80%;
+}
+}
+@media (max-width:375px) {
+  #primer div:last-child {
+    gap: 6px;
+    margin-bottom: 20%;
+  }
+  #primer ul {
+    gap: 5px;
+  }
+
+}
+

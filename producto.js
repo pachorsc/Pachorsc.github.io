@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     let zon = document.querySelector("#elegido");
     let id = window.location.href.split("?id=");
-    let product = prod[id[1]];
+    let product = prod[id[1]-1];
+    console.log(product)
+
     let str =`<div>
             <div>
                 <img src="${product.img}" alt="">
@@ -26,11 +28,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     const recom = document.querySelector("#zona-rec");
     let productosR = prod.filter((prd) => prd.tipo == product["tipo"] && prd.id != product["id"]);
-    console.log(productosR);
     productosR.forEach((prod, con) => {
         if (con <4) {
             recom.innerHTML += `
-            <a href="http://127.0.0.1:3000/producto.html?id=${prod.id}" class="recomProd">
+            <a href="./producto.html?id=${prod.id}" class="recomProd">
                 <img src="${prod.img}" alt="">
             </a>
         `;
