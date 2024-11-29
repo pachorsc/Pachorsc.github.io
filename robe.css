@@ -25,8 +25,13 @@ body {
   overflow-x: hidden;
   background-color: #111111;
 }
+.mensec {
+  display: none;
+  z-index: 999;
+}
 
 header {
+
   position: absolute;
   width: 100dvw;
   background-color: rgba(0, 0, 0, 0.3);
@@ -213,9 +218,6 @@ h1 {
   header ul {
     flex-direction: column;
   }
-  #primer > div.logo {
-    color: transparent;
-  }
   #anec div {
     margin-bottom: 80px;
   }
@@ -299,7 +301,7 @@ header.osc {
   background-color: #000000;
 }
 #zondiscos {
-  padding-top: 15%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -424,7 +426,7 @@ header.osc {
 }
 /* Tienda */
 .libro {
-  padding-top: 15%;
+  padding-top: 22%;
   background-color: #135752;
   padding-bottom: 4%;
   display: flex;
@@ -682,7 +684,7 @@ header.osc {
 
 /*Producto elegido*/
 #elegido {
-  padding-top: 120px;
+
   padding-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -800,13 +802,47 @@ header.osc {
   }
 }
 @media (max-width: 615px) {
-  #zondiscos {
-    padding-top: 80%;
+  .mensec {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
   }
+  .mensec > button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: gray;
+    font-size: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  header {
+    top: -100%;
+    transition: all 1s;
+  }
+  header > ul {
+    height: 100dvh;
+  }
+  header > ul > li a{
+    font-size: 80px;
+  }
+  header > ul > li > a.menu {
+    font-size: 84px;
+  }
+  header {
+    height: 100dvh;
+  }
+
   .discos {
     width: 37%;
   }
   #zondiscos > h2 {
+    padding-top: 25%;
     font-size: 60px;
   }
   .card-mus {
@@ -818,9 +854,7 @@ header.osc {
   #music > div {
     width: 100%;
   }
-  .libro {
-    padding-top: 80%;
-  }
+
   .libro > div:nth-child(1) {
     width: 75%;
   }
@@ -842,7 +876,7 @@ header.osc {
     align-items: center;
   }
   #bio {
-    padding: 32dvh 3% 10px 3%;
+    padding: 12dvh 3% 10px 3%;
   }
   #bio > div > div {
     flex-direction: column;
@@ -859,9 +893,7 @@ header.osc {
   .bioli {
     padding-top: 4%;
   }
-  #elegido {
-    padding-top: 72%;
-  }
+
   #recom h2 {
     font-size: 44px;
   }
@@ -874,6 +906,12 @@ header.osc {
 }
 
 @media (max-width: 375px) {
+  header > ul > li a{
+    font-size: 60px;
+  }
+  header > ul > li > a.menu {
+    font-size: 64px;
+  }
   #primer {
     justify-content: space-around;
   }
@@ -917,9 +955,7 @@ header.osc {
   .libro > div:nth-child(2) {
     width: 90%;
 }
-#elegido {
-  padding-top: 90%;
-}
+
 #elegido > div > div:nth-child(2) > h2 {
   font-size: 41px;
 }
@@ -933,16 +969,13 @@ header.osc {
   width: 253px;
 }
 #bio {
-  padding: 55dvh 3% 10px 3%;
+  padding: 14dvh 3% 10px 3%;
 }
 #bio div > div:nth-child(2) > img {
   margin-top: 40px;
 }
 #bio div > div:nth-child(3) :first-child {
   padding-bottom: 30px;
-}
-#bio {
-  padding: 57dvh 3% 40px 3%;
 }
 }
 

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                             <p>${producto.nombre}</p>
                             <p>${producto.precio}€</p>
                         </div>
-                </a>`                ;
+                </a>`;
     });
     zona.innerHTML = str;
 });
