@@ -301,7 +301,7 @@ header.osc {
   background-color: #000000;
 }
 #zondiscos {
-
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -426,7 +426,7 @@ header.osc {
 }
 /* Tienda */
 .libro {
-  padding-top: 22%;
+  padding-top: 8%;
   background-color: #135752;
   padding-bottom: 4%;
   display: flex;
@@ -684,7 +684,7 @@ header.osc {
 
 /*Producto elegido*/
 #elegido {
-
+  padding-top: 10%;
   padding-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -702,7 +702,7 @@ header.osc {
 #elegido > div {
   background-color: #d9d9d9;
   display: flex;
-  width: 90%;
+  width: 60%;
   border-radius: 30px;
   padding: 5%;
 }
@@ -774,6 +774,9 @@ header.osc {
   border-radius: 20px;
 }
 @media (max-width: 768px) {
+  #elegido {
+    padding-top: 15%
+  }
   #elegido > div {
     flex-direction: column;
   }
@@ -792,6 +795,9 @@ header.osc {
   .prod {
     padding: 20px;
   }
+  .libro {
+    padding-top: 12%;
+  }
 }
 @media (max-width: 774px) {
   #music > h2 {
@@ -802,6 +808,9 @@ header.osc {
   }
 }
 @media (max-width: 615px) {
+  #elegido {
+    padding-top: 22%;
+  }
   .mensec {
     display: flex;
     justify-content: end;
@@ -903,9 +912,15 @@ header.osc {
   #contact {
     align-items: flex-start;
   }
+  #elegido > div {
+    width: 90%;
+  }
 }
 
 @media (max-width: 375px) {
+  #elegido {
+    padding-top: 32%;
+  }
   header > ul > li a{
     font-size: 60px;
   }
