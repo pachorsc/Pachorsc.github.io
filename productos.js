@@ -94,6 +94,14 @@ const prod = [
         "descrip": "\"Se nos lleva el aire\” es el cuarto trabajo de estudio de Roberto Iniesta, Robe: diez canciones integran el disco, diez composiciones de rock aliñado por momentos con toques psicodélicos y progresivos que, presididas por la reconocible marca creativa de Robe, no dejarán indiferente a sus seguidores. Un disco de ‘10’, y no sólo por el número de canciones que contiene.",
         "precio" : "20,99",
         "tipo": "otros"
+    }, 
+    {
+        "id":13,
+        "img":"./img/libro1.png",
+        "nombre": "El viaje íntimo de la locura",
+        "descrip": "\"El viaje íntimo de la locura es la primera novela de Roberto Iniesta, alma máter de Extremoduro. En este libro Robe deja volar la imaginación por medio de una onírica aventura que nos muestra el mundo desde su prisma, genuínamente personal: desde un punto de vista marcado magistralmente por su personal forma de entender la realidad.",
+        "precio" : "18,99",
+        "tipo": "otros"
     }
 
 ]

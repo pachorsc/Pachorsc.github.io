@@ -87,7 +87,7 @@ h1 {
 
 .logo {
   font-family: Trade Winds;
-  font-size: 12dvw;
+  font-size: calc(12dvw + 40px);
   text-decoration: none;
 }
 
@@ -705,6 +705,7 @@ header.osc {
   width: 60%;
   border-radius: 30px;
   padding: 5%;
+  gap: 1%;
 }
 
 #elegido > div > div:nth-child(2) {
@@ -772,6 +773,7 @@ header.osc {
   max-width: 300px;
   background-color: #d9d9d99d;
   border-radius: 20px;
+  padding: 1%;
 }
 @media (max-width: 768px) {
   #elegido {
